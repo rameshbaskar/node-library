@@ -1,0 +1,23 @@
+{
+  "name": "node-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rameshbaskar/node-library.git",
+  "author": "Ramesh Baskarasubramanian <ramesh.baskarasubramanian@live.com>",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^7.0.0-alpha.2"
+  }
+}
