@@ -11,7 +11,6 @@ const {
 export const sequelize = new Sequelize(LIBRARY_DB_NAME, LIBRARY_DB_USER, LIBRARY_DB_PASSWORD, {
   host: LIBRARY_DB_HOST,
   dialect: "mysql",
-  operatorsAliases: false,
   pool: {
     max: 5,
     min: 2,
